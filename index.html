@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Tech Blog</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="header">
-    <h1>My Tech Blog</h1>
-    <p>Latest articles and updates</p>
-  </header>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <h2>Admin</h2>
+            <ul>
+                <li>Dashboard</li>
+                <li>Users</li>
+                <li>Reports</li>
+                <li>Settings</li>
+            </ul>
+        </nav>
 
-  <main class="blog-container">
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1>Dashboard Overview</h1>
 
-    <div class="blog-card">
-      <h2>HTML Basics</h2>
-      <p>Learn the foundation of web development with HTML.</p>
-      <a href="#" class="read-more">Read More</a>
+            <div class="cards">
+                <div class="card">
+                    <h3>Total Users</h3>
+                    <p>1,245</p>
+                </div>
+
+                <div class="card">
+                    <h3>Active Sessions</h3>
+                    <p>312</p>
+                </div>
+
+                <div class="card">
+                    <h3>Revenue</h3>
+                    <p>$8,450</p>
+                </div>
+            </div>
+        </main>
     </div>
-
-    <div class="blog-card">
-      <h2>CSS Flexbox</h2>
-      <p>Build flexible and responsive layouts using Flexbox.</p>
-      <a href="#" class="read-more">Read More</a>
-    </div>
-
-    <div class="blog-card">
-      <h2>CSS Grid</h2>
-      <p>Create complex layouts easily with CSS Grid.</p>
-      <a href="#" class="read-more">Read More</a>
-    </div>
-
-    <div class="blog-card">
-      <h2>Responsive Design</h2>
-      <p>Make your websites look great on all devices.</p>
-      <a href="#" class="read-more">Read More</a>
-    </div>
-
-  </main>
 
 </body>
 </html>
